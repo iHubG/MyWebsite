@@ -47,7 +47,7 @@ body {
     opacity: .8;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 500px) {
 
     .looking-box {
         width: 70%;
@@ -75,6 +75,13 @@ a.arrow-left {
 
 a.arrow-left:hover {
     opacity: .8;
+}
+
+.icon-box img {
+    position: absolute;
+    width: 60px;
+    left: 100px;
+    top: 40px;
 }
 
 .navbar-box {
@@ -122,19 +129,34 @@ div.bar {
     
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 500px) {
+
+
+    a.arrow-left {
+        bottom: 8px;
+    }
+
+    .icon-box img {
+        width: 50px;
+        top: 1%;
+        left: 45%;
+    }
 
     .navbar-box {
         display: none;
+        gap: 10px;
+        position: absolute;
+        z-index: 5;
+        width: 100%;
         flex-direction: column;
         background-color: #EDEADE;
-        align-items: first baseline;
-        justify-content: center;
-        gap: 10px;
+        padding-left: 2rem;
     }
 
-    .navbar-box :last-child {
-        margin-bottom: 300px;
+    .navbar-box a {
+        width: fit-content;
+        font-size: 1.3rem;
+        border-width: 20px;
     }
 
     header {
@@ -152,4 +174,178 @@ div.bar {
     }
 
 
+}
+
+/* Personal Info */
+.navbar2-box {
+    width: 20%;
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+    border-radius: 10px;
+    gap: 8px;
+    padding: 10px;
+    display: flex;
+}
+
+.navbar2-box a {
+    font-size: 1rem;
+    color: #36454F;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navbar2-box a:hover {
+    color: azure;
+    background-color: #0096FF;
+    border-color: #0096FF;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    .navbar2-box {
+        margin-left: 0;
+        position: relative;
+    }
+}
+
+/* Gallery Page */
+h1.gallery {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.gallery-box {
+    width: 60%;
+    height: auto;
+    background-color: #7393B3;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.gallery-box a {
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 1px #36454F;
+    border-color: none;
+    color: #36454F;
+    background-color: #EDEADE;
+    width: 20%;
+    height: 100px;
+    border: 1px solid ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+    border-radius: 5px;
+}
+
+.gallery-box a:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.gallery {
+        font-size: 3rem;
+    }
+
+    .gallery-box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .gallery-box a {
+        width: 50%;
+    }
+}
+
+/* Crush Page */
+h1.crush {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.crush-box {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.crush-box img {
+    width: 20%;
+}
+
+p.arrow-down {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.crush1-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush1-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.crush2-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush2-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.crush {
+        font-size: 3rem;
+    }
+
+    .crush-box {
+        width: fit-content;
+    }
+
+    .crush-box img {
+        width: 20%;
+    }
+
+    .crush1-img-box {
+        
+    }
+
+    .crush1-img-box p {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    
+
+    
 }
