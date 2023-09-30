@@ -282,6 +282,7 @@ h1.crush {
     margin: auto;
     border: 1px solid black;
     padding: 10px;
+    color: #36454F;
 }
 
 .crush-box img {
@@ -323,6 +324,85 @@ p.arrow-down {
     font-size: 1.1rem;
 }
 
+.crush3-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush3-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.crush4-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush4-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.crush5-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush5-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.crush6-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush6-img-box video {
+    width: 20%;
+}
+
+.crush6-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.crush7-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.crush7-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
 
     h1.crush {
@@ -337,15 +417,40 @@ p.arrow-down {
         width: 20%;
     }
 
-    .crush1-img-box {
-        
-    }
-
     .crush1-img-box p {
         margin-left: 1rem;
         font-size: 1rem;
     }
+
+    .crush2-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .crush3-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .crush4-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .crush5-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .crush6-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
     
+    .crush7-img-box p {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
 
     
 }
