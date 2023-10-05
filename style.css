@@ -210,6 +210,67 @@ div.bar {
     }
 }
 
+/* Profile Page */
+h1.profile {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.profile-pict {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pict img {
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px #36454F;
+    margin-bottom: 20px;
+}
+
+.personal-details {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: #EDEADE;
+    color: #36454F;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 0px 0px #36454F;
+    margin-bottom: 20px;
+}
+
+.personal-details p {
+    font-size: 1.1rem;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.profile {
+        font-size: 3rem;
+    }
+
+    .profile-pict img {
+        width: 40%;
+    }
+
+    .personal-details {
+        width: 90%;
+    }
+
+    .personal-details p {
+        font-size: 1rem;
+    }
+    
+}
+
 /* Gallery Page */
 h1.gallery {
     font-size: 4rem;
@@ -269,6 +330,47 @@ h1.gallery {
     }
 }
 
+/* Personal Page */
+h1.personal {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.personal-box {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    color: #36454F;
+}
+
+.personal-box img {
+    width: 20%;
+}
+
+p.arrow-down {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.personal-img-box {
+    box-shadow: 3px 2px 0px 0px black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+
 /* Crush Page */
 h1.crush {
     font-size: 4rem;
@@ -280,7 +382,6 @@ h1.crush {
 .crush-box {
     width: 60%;
     margin: auto;
-    border: 1px solid black;
     padding: 10px;
     color: #36454F;
 }
@@ -454,3 +555,4 @@ p.arrow-down {
 
     
 }
+
