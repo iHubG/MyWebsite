@@ -629,4 +629,8 @@ h1.skills {
     .skills-box {
         width: 90%;
     }
+
+    .skills-box p {
+        font-size: 1rem;
+    }
 }
