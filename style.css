@@ -634,3 +634,42 @@ h1.skills {
         font-size: 1rem;
     }
 }
+
+
+/* Education Page */
+h1.education {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.educ-box {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    color: #36454F;
+    background-color: #EDEADE;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px #36454F;
+}
+
+.educ-box p {
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.education {
+        font-size: 3rem;
+    }
+
+    .educ-box p {
+        font-size: 1rem;
+    }
+
+    .educ-box {
+        width: 90%;
+    }
+}
