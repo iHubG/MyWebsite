@@ -129,6 +129,52 @@ div.bar {
     
 }
 
+h1.home {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.contact-box {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #EDEADE;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px #36454F;
+    color: #36454F;
+}
+
+.contact-box p {
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #7393B3;
+    text-align: center;
+    color: #36454F;
+}
+
+footer a {
+    text-decoration: none;
+    color: #36454F;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: #EDEADE;
+}
+
+.contact-box p, footer a {
+    font-size: 1.1rem;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
 
 
@@ -173,6 +219,21 @@ div.bar {
         display: flex;
     }
 
+    h1.home {
+        font-size: 3rem;
+    }
+
+    .contact-box {
+        width: 90%;
+    }
+
+    .contact-box p {
+        font-size: 1rem;
+    }
+
+    .contact-box p, footer a {
+        font-size: 1rem;
+    }
 
 }
 
@@ -556,6 +617,116 @@ p.arrow-down {
     
 }
 
+/* Experience Page */
+h1.experience {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.exp-box {
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    color: #36454F;
+    background-color: #EDEADE;
+    text-align: center;
+    box-shadow: 0px 0px 2px 1px #36454F;
+    border-radius: 5px;
+}
+
+.exp-box p {
+    font-size: 1.1rem;
+}
+
+.exp-box a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    border: 1px solid #36454F;
+    padding: 5px;
+    width: 20%;
+    border-color: #0096FF;
+    color: #0096FF;
+}
+
+.exp-box a:hover {
+    background-color: #0096FF;
+    color: #EDEADE;
+}
+
+.exp1-box {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.experience {
+        font-size: 3rem;
+    }
+
+    .exp-box {
+        width: 90%;
+    }
+
+    .exp-box p {
+        font-size: 1rem;
+    }
+
+    .exp-box a {
+        width: 30%;
+    }
+
+    .exp1-box {
+        width: 100%;
+    }
+}
+
+
+/* Education Page */
+h1.education {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.educ-box {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    color: #36454F;
+    background-color: #EDEADE;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px #36454F;
+}
+
+.educ-box p {
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.education {
+        font-size: 3rem;
+    }
+
+    .educ-box p {
+        font-size: 1rem;
+    }
+
+    .educ-box {
+        width: 90%;
+    }
+}
+
+
 /* Skills Page */
 h1.skills {
     font-size: 4rem;
@@ -635,41 +806,3 @@ h1.skills {
     }
 }
 
-
-/* Education Page */
-h1.education {
-    font-size: 4rem;
-    letter-spacing: .10em; 
-    text-align: center;
-    color: #36454F;
-}
-
-.educ-box {
-    width: 60%;
-    margin: auto;
-    height: auto;
-    color: #36454F;
-    background-color: #EDEADE;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0px 0px 2px 1px #36454F;
-}
-
-.educ-box p {
-    font-size: 1.1rem;
-}
-
-@media (min-width: 300px) and (max-width: 500px) {
-
-    h1.education {
-        font-size: 3rem;
-    }
-
-    .educ-box p {
-        font-size: 1rem;
-    }
-
-    .educ-box {
-        width: 90%;
-    }
-}
