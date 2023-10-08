@@ -869,10 +869,39 @@ h1.interest {
     background-color: #0096FF;
 }
 
+.interest-box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    background-color: #EDEADE;
+    color: #36454F;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px;
+}
+
+.interest-box li {
+    font-size: 1.1rem;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
 
     .interest-nav {
         margin-left: 0px;
+    }
+
+    h1.interest {
+        font-size: 3rem;
+    }
+
+    .interest-box {
+        width: 90%;
+    }
+
+    .interest-box li {
+        font-size: 1rem;
     }
 }
 
@@ -914,4 +943,41 @@ h1.music {
         width: 90%;
     }
 
+}
+
+/* Videos Page */
+h1.video {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.video-box {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.video-box video {
+    width: 60%;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.video {
+        font-size: 3rem;
+    }
+
+    .video-box {
+        width: fit-content;
+        font-size: 1rem;
+    }
+
+    .video-box video {
+        width: 80%;
+    }
 }
