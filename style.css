@@ -361,6 +361,41 @@ h1.profile {
     
 }
 
+/* Autobiography Page */
+h1.auto-bio {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.autobio-box {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: #36454F;
+    background-color: #EDEADE;
+    border-radius: 5px;
+    box-shadow: 2px 1px 0px 0px #36454F;
+}
+
+.autobio-box p {
+    font-size: 1.1rem;
+    text-indent: 50px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.auto-bio {
+        font-size: 3rem;
+        
+    }
+
+    .autobio-box {
+        width: 90%;
+    }
+}
+
 /* Gallery Page */
 h1.gallery {
     font-size: 4rem;
@@ -431,7 +466,6 @@ h1.personal {
 .personal-box {
     width: 60%;
     margin: auto;
-    border: 1px solid black;
     padding: 10px;
     color: #36454F;
 }
@@ -446,7 +480,7 @@ p.arrow-down {
 }
 
 .personal-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -458,6 +492,241 @@ p.arrow-down {
 .personal-img-box p {
     margin-left: 1rem;
     font-size: 1.1rem;
+}
+
+.personal2-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal2-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.personal3-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal3-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.personal4-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal4-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.personal5-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal5-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.personal6-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.personal6-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.personal {
+        font-size: 3rem;
+    }
+
+    .personal-box {
+        width: fit-content;
+    }
+
+    .personal-img-box p {
+        font-size: 1rem;
+    }
+
+    .personal2-img-box p {
+        font-size: 1rem;
+    }
+
+    .personal3-img-box p {
+        font-size: 1rem;
+    }
+
+    .personal4-img-box p {
+        font-size: 1rem;
+    }
+
+    .personal5-img-box p {
+        font-size: 1rem;
+    }
+
+    .personal6-img-box p {
+        font-size: 1rem;
+    }
+}
+
+/* Friends Page */
+h1.friends {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.friends-box {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: #36454F;
+}
+
+.friends-box img {
+    width: 20%;
+}
+
+.friends1-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.friends1-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.friends2-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.friends2-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.friends3-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.friends3-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.friends4-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.friends4-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.friends5-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.friends5-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.friends {
+        font-size: 3rem;
+    }
+
+    .friends-box {
+        width: fit-content
+    }
+
+    .friends1-img-box p {
+        font-size: 1rem;
+    }
+
+    .friends2-img-box p {
+        font-size: 1rem;
+    }
+
+    .friends3-img-box p {
+        font-size: 1rem;
+    }
+
+    .friends4-img-box p {
+        font-size: 1rem;
+    }
+
+    .friends5-img-box p {
+        font-size: 1rem;
+    }
 }
 
 
@@ -486,7 +755,7 @@ p.arrow-down {
 }
 
 .crush1-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -501,7 +770,7 @@ p.arrow-down {
 }
 
 .crush2-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -516,7 +785,7 @@ p.arrow-down {
 }
 
 .crush3-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -531,7 +800,7 @@ p.arrow-down {
 }
 
 .crush4-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -546,7 +815,7 @@ p.arrow-down {
 }
 
 .crush5-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -561,7 +830,7 @@ p.arrow-down {
 }
 
 .crush6-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -580,7 +849,7 @@ p.arrow-down {
 }
 
 .crush7-img-box {
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 3px 2px 0px 0px #36454F;
     border-radius: 5px;
     padding: 15px;
     display: flex;
