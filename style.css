@@ -604,6 +604,248 @@ p.arrow-down {
     }
 }
 
+/* Family Page */
+h1.family {
+    font-size: 4rem;
+    letter-spacing: .10em; 
+    text-align: center;
+    color: #36454F;
+}
+
+.family-box {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: #36454F;
+}
+
+.family-box img {
+    width: 20%;
+}
+
+.family1-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family1-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.family2-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family2-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+
+.family3-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family3-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.family4-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family4-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.family5-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family5-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.family6-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family6-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.family7-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family7-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.family8-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family8-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.family9-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family9-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.family10-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family10-img-box p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.family11-img-box {
+    box-shadow: 3px 2px 0px 0px #36454F;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEADE;
+}
+
+.family11-img-box p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    h1.family {
+        font-size: 3rem;
+    }
+
+    .family-box {
+        width: 90%;
+    }
+
+    .family1-img-box p {
+        font-size: 1rem;
+    }
+
+    .family2-img-box p {
+        font-size: 1rem;
+    }
+
+    .family3-img-box p {
+        font-size: 1rem;
+    }
+
+    .family4-img-box p {
+        font-size: 1rem;
+    }
+
+    .family5-img-box p {
+        font-size: 1rem;
+    }
+
+    .family6-img-box p {
+        font-size: 1rem;
+    }
+
+    .family7-img-box p {
+        font-size: 1rem;
+    }
+
+    .family8-img-box p {
+        font-size: 1rem;
+    }
+
+    .family9-img-box p {
+        font-size: 1rem;
+    }
+
+    .family10-img-box p {
+        font-size: 1rem;
+    }
+    
+    .family11-img-box p {
+        font-size: 1rem;
+    }
+}
+
+
+
 /* Friends Page */
 h1.friends {
     font-size: 4rem;
