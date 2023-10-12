@@ -1477,6 +1477,26 @@ h1.video {
     width: 60%;
 }
 
+.video-explanation {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.video-explanation a {
+    padding: 10px;
+    border: 1px solid #36454F;
+    text-decoration: none;
+    color: #36454F;
+    font-size: 1rem;
+}
+
+.video-explanation a:hover {
+    background-color: #0096FF;
+    border-color: #0096FF;
+    color: azure;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
 
     h1.video {
@@ -1490,5 +1510,9 @@ h1.video {
 
     .video-box video {
         width: 80%;
+    }
+
+    .video-explanation {
+        width: 60%;
     }
 }
