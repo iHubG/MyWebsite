@@ -1477,6 +1477,20 @@ h1.video {
     width: 60%;
 }
 
+.video-box1 {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.video-box1 iframe {
+    width: 100%;
+    height: 350px;
+}
+
 .video-explanation {
     width: 40%;
     margin: auto;
@@ -1510,6 +1524,14 @@ h1.video {
 
     .video-box video {
         width: 80%;
+    }
+
+    .video-box1 {
+        width: 90%;
+    }
+
+    .video-box iframe {
+        width: 300px;
     }
 
     .video-explanation {
